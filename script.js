@@ -1,5 +1,12 @@
 function letterCombinations(input) {
+// "3 6 8" 
+//        i
 
+// "d" => "dm" => "dmt"
+// "e" => "em" => "emu"
+// "d" => ["dm", "dn", "do"]
+// "e" => ["em" , "en", "eo"]
+// "f" => ["fm", "fn", "fo"]
 let table = {
     "2" : "abc",
     "3" : "def",
@@ -34,4 +41,3 @@ return solutions ;
 }
 
 module.exports = letterCombinations;
-
