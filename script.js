@@ -34,6 +34,4 @@ return solutions ;
 }
 
 module.exports = letterCombinations;
-}
 
-module.exports = letterCombinations;
